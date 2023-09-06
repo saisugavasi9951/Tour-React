@@ -55,7 +55,6 @@ const Tours = () => {
                 </Container>
             </section>
             <NewsLetter/>
-            
         </>
     )
 }
