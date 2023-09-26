@@ -47,7 +47,7 @@ const Footer = () => {
                     <Col lg='3'>
                         <div className="logo">
                             <img src={logo} alt="Logo" />
-                            <p>
+                            <p className="footer-description">
                             The idea of empowering the travelers with best vacation deals.
                             </p>
                             <div className="social__links d-flex align-items-center gap-4">

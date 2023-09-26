@@ -38,3 +38,21 @@
     box-shadow: 3px 3px 8px -3px #ddd;
     z-index: 999;
 }
+
+@media only screen and (max-width:480px) {
+    .logo img{
+        width: 100%;
+    }
+    .nav__item a{
+        text-decoration: none;
+        color: var(--heading--color);
+        font-weight: 510;
+        font-size: 14px;
+    }
+    .menu {
+        gap: 1rem !important;
+    }
+    .primary__btn a{
+        font-size: 10px;
+    }
+}   

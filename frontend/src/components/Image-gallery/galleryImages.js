@@ -18,4 +18,6 @@ const galleryImages = [
     imageGallery07,
 ];
 
+
 export default galleryImages;
+

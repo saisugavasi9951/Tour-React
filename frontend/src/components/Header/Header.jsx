@@ -45,7 +45,7 @@ const Header = () => {
                 <div className="nav__wrapper d-flex align-items-center justify-content-between">
                     {/* Nav Logo */}
                     <div className="logo">
-                        <img src={logo} alt="Nav Logo" />
+                        <a href="/home"><img src={logo} alt="Nav Logo" /></a>
                     </div>
                     {/* Menu  */}
                     <div className="navigation">
@@ -60,10 +60,7 @@ const Header = () => {
                     {/* Btns */}
                     <div className="nav__right d-flex align-items-center gap-4">
                         <div className="nav__btns d-flex align-items-center gap-4">
-                            <Button className="btn secondary__btn">
-                                <Link to='/login'>Login</Link>
-                            </Button>
-                            <Button className="btn primary__btn">
+                            <Button id="navBtn" className="btn primary__btn">
                                 <Link to='/register'>Sign Up</Link>
                             </Button>
                         </div>
