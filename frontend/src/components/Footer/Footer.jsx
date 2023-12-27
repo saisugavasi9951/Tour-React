@@ -12,7 +12,7 @@ const quick__links = [
         display: 'Home'
     },
     {
-        path: '/about',
+        path: '/about-us',
         display: 'About'
     },
     {
